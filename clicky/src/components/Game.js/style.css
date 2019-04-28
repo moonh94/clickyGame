@@ -1,0 +1,20 @@
+.image {
+    background: #fff;
+    border-radius: 2px;
+    height: auto;
+    margin: 1rem;
+    position: relative;
+    width: 200px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
+  }
+  .image > .img-container {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    border: black;
+  }
+  .image > .img-container > img {
+    width: 100%
+  }
+

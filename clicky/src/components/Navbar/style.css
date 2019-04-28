@@ -1,0 +1,11 @@
+.navbar {
+    width: 100%;
+    background: skyblue;
+}
+.col-md-4 {
+    width: 400px;
+}
+
+.row1 {
+    display: inline-block;
+}
