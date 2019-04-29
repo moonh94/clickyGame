@@ -1,34 +1,16 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
 
-const NavBar = () => {
-    return (
-        <nav className="navbar navbar-expand-lg">
-            <div className="collapse navbar-collapse" id="navbarNav">
-            <div className="row">
-                    <ul className="navbar-nav">
-                    <div className="col-md-4">
-                        <li className="nav-link">
-                            Clicky Game
-                        </li>
-                    </div>
-                    <div className="col-md-4">
-                        <li className="nav-link">
-                            Guess:
-                        </li>
-                    </div>
-                    <div className="col-md-4">
-                        <li className="nav-link">
-                            Score:
-                        </li>
-                    </div>
-                    </ul>
 
-            </div> 
+const NavBar = props => (
+        <div className = "navbar" >
+            <div className="gameName">Clicky Game!
+                </div>
+            <div className="score">
+            Score: {props.score} Highscore: {props.highscore}
             </div>
-        </nav>
+        </div>
 
-    )
-}
+)
 
 export default NavBar;
